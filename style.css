@@ -1,0 +1,160 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #cfd8dc);
+    color: #2E2E2E;
+    transition: background-color 0.3s ease;
+}
+
+/* Profile Photo in Circle */
+.profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f10505;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #1a7cb4;
+    padding: 20px;
+    text-align: center;
+    color: #E74C3C;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #080808;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border: 2px solid #E74C3C;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #141414;
+    color: #344955;
+}
+
+/* Section styles */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #F4F4F9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #344955;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #E74C3C;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #607D8B;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #DFE7EC;
+    border-left: 5px solid #E74C3C;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #344955;
+    color: #E74C3C;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #344955;
+    color: #E74C3C;
+}
+
+section:hover {
+    background-color: #f0f4f8;
+}
+
+footer:hover {
+    background-color: #d8e4e9;
+    color: #FF6F61;
+}
+
+/* Registration Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #344955;
+}
+
+form input {
+    padding: 10px;
+   
